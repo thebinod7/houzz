@@ -19,7 +19,7 @@ const BeerCard = ({ beer }) => {
 				<div className="col-md-11">
 					<Card.Body>
 						<Tooltip anchorSelect=".my-anchor-element" place="top">
-							This is ingredients details
+							Ingredients details goes here!
 						</Tooltip>
 						<Card.Title>{beer.name}</Card.Title>
 						<Card.Subtitle style={{ color: '#E3B778' }}>{beer.tagline}</Card.Subtitle>
